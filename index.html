@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Météo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="app-meteo">
+    <h1>Ma Météo</h1>
+    <input type="text" id="ville" placeholder="Entrez une ville...">
+    <button id="btn-recherche">Rechercher</button>
+
+    <div id="resultat-meteo" class="cacher">
+      <h2 id="nom-ville"></h2>
+<p class="meteo-info"><strong>Température :</strong> <span id="temperature"></span>°C</p>
+<p class="meteo-info"><strong>Description :</strong> <span id="description"></span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
