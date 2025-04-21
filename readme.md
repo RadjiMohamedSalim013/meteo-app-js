@@ -13,7 +13,7 @@ Avant de pouvoir tester l'application, vous devrez obtenir une clé API gratuite
 1. Clonez ce projet sur votre machine locale :
 
    ```bash
-   git clone https://votre-lien-de-repository.git
+   git clone https://github.com/RadjiMohamedSalim013/meteo-app-js.git
    ```
 
 2. Ouvrez le dossier du projet dans votre éditeur de texte préféré.
